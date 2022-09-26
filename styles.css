@@ -2,12 +2,37 @@ body{
   width: 100%;
   height: 100vh;
   margin: 0;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  font-size: 20px;
 }
 #image{
   margin: 0 auto;
-  height:40%;
+  height:auto;
   max-height: 400px;
   width:80%;
-  max-width:600px;
+  max-width:100%;
   object-fit: contain;
+  display: block;
+  margin-bottom: 10px;
+}
+.bold{
+  font-weight: bold;
+}
+h1{
+  font-size: 3em;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+li{
+  margin-bottom: 0.8rem;
+  text-align: left;
+
+}
+li:last-child{
+  margin-bottom: 0;
+}
+.information{
+  width: 60%;
+  margin: 0 auto;
 }
